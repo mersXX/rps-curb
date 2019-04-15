@@ -1,0 +1,41 @@
+<div>
+  <div class="d-flex flex-row justify-content-center header-text">
+    <h1>ROCK – PAPER – SCISSORS</h1>
+  </div>
+  <div class="d-flex flex-row justify-content-center">
+    <p class="w-50">Rock Paper Scissors is a zero sum game that is usually played by two people using their hands and no tools. The idea is to make shapes with an outstretched hand where each shape will have a certain degree of power and will lead to an outcome.
+    </p>
+  </div>
+  <div class="d-flex flex-row justify-content-center">
+    <h3>SELECT YOUR BET</h3>
+  </div>
+  <br>
+  <div class="row justify-content-center">
+    <div class="col-md-4 throw d-flex justify-content-center">
+      <div class="justify-content-center">
+        <%= link_to image_tag("Rock.svg", border: 0), '#', class: "d-flex justify-content-center" %>
+        <div class="mx-auto">
+          <h4>Rock</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 throw d-flex justify-content-center">
+      <div class="justify-content-center">
+        <%= link_to image_tag("Paper.svg", border: 0), '#', class: "d-flex justify-content-center" %>
+        <div class="mx-auto">
+          <h4>Paper</h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 throw d-flex justify-content-center">
+      <div class="justify-content-center">
+        <%= link_to image_tag("Scissors.svg", border: 0), '#', class: "d-flex justify-content-center" %>
+        <div class="mx-auto">
+          <h4>Scissors</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
