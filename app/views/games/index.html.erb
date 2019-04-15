@@ -10,27 +10,29 @@
     <h3>SELECT YOUR BET</h3>
   </div>
   <br>
+
   <div class="row justify-content-center">
-    <div class="col-md-4 throw d-flex justify-content-center">
+    <div id="rock" class="col-md-4 throw d-flex justify-content-center">
       <div class="justify-content-center">
-        <%= link_to image_tag("Rock.svg", border: 0), '#', class: "d-flex justify-content-center" %>
+        <%= image_tag 'Rock.svg', border: 0, class: 'figure-img throw-img', height: 150 %>
         <div class="mx-auto">
           <h4>Rock</h4>
         </div>
       </div>
     </div>
 
-    <div class="col-md-4 throw d-flex justify-content-center">
+    <div id="paper" class="col-md-4 throw d-flex justify-content-center">
       <div class="justify-content-center">
-        <%= link_to image_tag("Paper.svg", border: 0), '#', class: "d-flex justify-content-center" %>
+        <%= image_tag 'Paper.svg', border: 0, class: 'figure-img throw-img', height: 150 %>
         <div class="mx-auto">
           <h4>Paper</h4>
         </div>
       </div>
     </div>
-    <div class="col-md-4 throw d-flex justify-content-center">
+
+    <div id="scissors" class="col-md-4 throw d-flex justify-content-center">
       <div class="justify-content-center">
-        <%= link_to image_tag("Scissors.svg", border: 0), '#', class: "d-flex justify-content-center" %>
+        <%= image_tag 'Scissors.svg', border: 0, class: 'figure-img throw-img', height: 150 %>
         <div class="mx-auto">
           <h4>Scissors</h4>
         </div>

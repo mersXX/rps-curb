@@ -9,6 +9,7 @@ gem 'rails', '~> 5.2.1'
 
 gem 'bootstrap', '~> 4.1.1'
 gem 'coffee-rails', '~> 4.2'
+gem 'httparty'
 gem 'jbuilder', '~> 2.5'
 gem 'jquery-rails'
 gem 'puma', '~> 3.11'
