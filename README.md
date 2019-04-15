@@ -1,24 +1,20 @@
-# README
+# Rock-Paper-Scissors game
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Prerequisites
+* ruby 2.5.0
+* rails 5.2.1
 
-Things you may want to cover:
+## Setup
+Run in the terminal:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+$ bundle
+$ rake db:setup
+$ rails s
+```
+## Rules
+Select one of the options and click on it, the alert will report the result (you can see the full details in response)
+* Rock beats scissors
+* Scissors beats paper
+* Paper beats rock
+* Identical throws draw
