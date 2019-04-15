@@ -2,7 +2,7 @@
 
 Rails.application.routes.draw do
   root to: 'games#index'
-
   get 'games/index'
-  get '/throw' => 'games#throw', as: '/throw'
+  get '/throw/:type', to: 'games#throw'
 end
+
